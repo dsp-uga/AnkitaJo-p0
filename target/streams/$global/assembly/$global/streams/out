@@ -5,11 +5,29 @@
 [0m[[0minfo[0m] [0mMerging files...[0m
 [0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
 [0m[[33mwarn[0m] [0mStrategy 'discard' was applied to a file[0m
-[0m[[0minfo[0m] [0mSHA-1: 887448a3e66cf524358a82f569eb33074adeb8cc[0m
+[0m[[0minfo[0m] [0mSHA-1: 93888f071c543a3c51a00d6860103e6c82528136[0m
 [0m[[0minfo[0m] [0mPackaging /home/ankita/AnkitaJo-p0/target/scala-2.10/Project0-assembly-1.0.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	books$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$3.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$4.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$5.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$5.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$6.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$6.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$7$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$7$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$7$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$7$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	books$$anonfun$main$7.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$$anonfun$main$7.class[0m
 [0m[[0mdebug[0m] [0m	books$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/books$.class[0m
 [0m[[0mdebug[0m] [0m	books.class[0m
@@ -26,14 +44,14 @@
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$13.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$14.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$14.class[0m
-[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$15$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$15$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$15.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$15.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$16.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$16.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$17.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$17.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$18$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$18$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$18.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$18.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$19.class[0m
@@ -48,14 +66,20 @@
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$22.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$23.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$23.class[0m
-[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$24$$anonfun$apply$2.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$24$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$24.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$24.class[0m
-[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$25$$anonfun$apply$3.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$25$$anonfun$apply$3.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$25.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$25.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$26.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$26.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$27$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$27$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$27.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$27.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$28$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$28$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$28.class[0m
+[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$28.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$3.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$4.class[0m
@@ -70,10 +94,6 @@
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$8.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$9.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$9.class[0m
-[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$subprojectC$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$subprojectC$1.class[0m
-[0m[[0mdebug[0m] [0m	dsp/WordCount$$anonfun$subprojectD$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$$anonfun$subprojectD$1.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/ankita/AnkitaJo-p0/target/streams/$global/assemblyOption/$global/streams/assembly/182587440c60c27785493c5d47b27c326ee4753a_dir/dsp/WordCount$.class[0m
 [0m[[0mdebug[0m] [0m	dsp/WordCount.class[0m

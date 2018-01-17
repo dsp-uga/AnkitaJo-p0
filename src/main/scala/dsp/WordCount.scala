@@ -1,4 +1,4 @@
-/**Implementation of Prject 0
+/**Implementation of Project 0
  *
  * Work done by Ankita Joshi
  *
@@ -11,6 +11,7 @@ import org.apache.spark.broadcast.Broadcast
 
 object WordCount {
 
+	//subprojectA - Simple word count
 	def subprojectA(A: RDD[(Int, String)]): Array[(Int, String)] ={
 
 		val r1 = A.flatMap{ case(index,line) => line.split("\\s")}.map(word => (word.toLowerCase,1)).reduceByKey(_+_).filter{case(a,b) => b > 2}.map{case(a,b) => (b,a)}.sortByKey(ascending = false).top(40)
@@ -18,24 +19,28 @@ object WordCount {
  
 	}
 	
+	//subprojectB - WordCount with removal of stop words
 	def subprojectB(A: RDD[(Int, String)], B: Broadcast[Array[String]]): Array[(Int, String)] ={
 
-
+		//Removing stopwords 
 		val stopwords = B.value.toArray
-		//stopwords.foreach(println(_))
+	
 		val r2 = A.flatMap{ case(index,line) => line.split("\\s")}.map(word => (word.toLowerCase,1)).reduceByKey(_+_).filter{case(a,b) => b > 2 && !stopwords.contains(a)}.map{case(a,b) => (b,a)}.sortByKey(ascending = false).top(40)
  		r2
 	}
-	def subprojectC(A: RDD[(Int, String)], B: Broadcast[Array[String]]): Unit ={
 
+	//subprojectC - Wordcount along with removal of stopwords and some basic preprocessing
+	def subprojectC(A: RDD[(Int, String)], B: Broadcast[Array[String]]): Array[(Int, String)] ={
+
+		//Removing stopwords along with special characters in the words
 		val stopwords = B.value.toArray
-		//stopwords.foreach(println(_))
-		val r3 = A.flatMap{ case(index,line) => line.split("\\s")}.map{case(word) => word.replaceAll("[-_,.!?:;\"]", "").trim.toLowerCase}.filter{ case(word) => !word.startsWith("'") || !word.endsWith("'") } //.map(word => (word,1)).reduceByKey(_+_).filter{case(a,b) => b > 2 && !stopwords.contains(a) && a.length > 1}.map{case(a,b) => (b,a)}.sortByKey(ascending = false).top(40)
-		r3.foreach(println(_))
+		
+		val r3 = A.flatMap{ case(index,line) => line.split("\\s")}.map{case(word) => word.replaceAll("[,.!?:;]", "").trim.toLowerCase}.map(word => (word,1)).reduceByKey(_+_).filter{case(a,b) => b > 2 && !stopwords.contains(a) && a.length > 1}.map{case(a,b) => (b,a)}.sortByKey(ascending = false).top(40)
+		r3//.foreach(println(_))
 	}
 
-
-	def subprojectD(A: RDD[(Int, String)], B: Broadcast[Array[String]]): Unit={
+	//subprojectD - Implementation of tf-idf
+	def subprojectD(A: RDD[(Int, String)], B: Broadcast[Array[String]]): Array[Seq[(String, Double)]]={
 
 		val stopwords = B.value.toArray
 		 
@@ -55,12 +60,10 @@ object WordCount {
 
 		val tfidf = tf.map{case((word,doc),count) => (word,(doc,count))}.join(idf).map{case(word,((doc,tfscore),idfscore)) => (doc,(word,tfscore.toDouble*idfscore))}
 
-		val r4 = tfidf.groupByKey().map{case(doc,list) => (doc,list.toArray.sortBy(-_._2).slice(0, 5))}.map{case (doc,stuff) => stuff.toSeq.map{case(a,b) => (doc,a,b)}}
+		val r4 = tfidf.groupByKey().map{case(doc,list) => (doc,list.toArray.sortBy(-_._2).slice(0, 5))}.map{case (doc,stuff) => stuff.toSeq.map{case(a,b) => (a,b)}}.collect
+		r4
 
-		r4.foreach(println(_))
-		//val IDF
-
-		
+			
 	}
  	
 }
