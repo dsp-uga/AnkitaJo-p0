@@ -55,12 +55,10 @@ object WordCount {
 
 		val tfidf = tf.map{case((word,doc),count) => (word,(doc,count))}.join(idf).map{case(word,((doc,tfscore),idfscore)) => (doc,(word,tfscore.toDouble*idfscore))}
 
-		val r4 = tfidf.groupByKey().map{case(doc,values) => (doc,(values(0),values(1)))} 
-
-		//val IDF
-
+		val r4 = tfidf.groupByKey().map{case(doc,list) => (doc,list.toArray.sortBy(-_._2).slice(0, 5))}.map{case (doc,stuff) => stuff.toSeq.map{case(a,b) => (doc,a,b)}}
 
 		r4.foreach(println(_))
+		//val IDF
 
 		
 	}
